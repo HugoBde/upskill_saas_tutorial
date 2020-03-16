@@ -5,7 +5,7 @@ class PagesController < ApplicationController
     def about
     end 
     
-    def products
+    def login
     end 
     
 end
