@@ -30,6 +30,16 @@
  
 }
 
+.contact-submit-btn{
+    background-color: #dd1818;
+    border-color:#333333;
+    &:hover, &:focus{
+        background-color: #333333;
+        border-color: #dd1818;
+    }
+}
+
+
 //Nav Styles
 .navbar{
     border:none;
