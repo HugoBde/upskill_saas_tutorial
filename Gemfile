@@ -28,6 +28,7 @@ gem 'bootstrap-sass', '~>3.3.7' #Use twitter bootstrap library for front-end UI 
 
 gem 'font-awesome-sass', '~> 5.12.0' #Use font awesome to make my website slay
 
+gem 'hirb', '~> 0.7.3' #Use Hirb gem for better console database presentation
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.13'
