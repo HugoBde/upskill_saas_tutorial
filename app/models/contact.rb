@@ -1,5 +1,5 @@
 class Contact < ActiveRecord::Base
-    validate: name, presence: true
-    validate: email, presence: true
-    validate: question, presence: true
+    validates :name, presence: true
+    validates :email, presence: true
+    validates :question, presence: true
 end
